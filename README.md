@@ -1,6 +1,8 @@
 # Deploy-PHP-Application-in-AWS
 
+
 **Abstract**
+
 A handful of the guided labs and challenge labs that we have already completed in our earlier tasks are effectively combined in this capstone project. 
 The primary objectives of the capstone project are to deploy the PHP application (web app) that runs on EC2 and to create an RDS database for the PHP application 
 to query and interact with it. Then we need to secure the application to prevent public access to the backend database systems and update the necessary 
@@ -11,6 +13,7 @@ can be used to build the solution.
 <img width="472" alt="image" src="https://github.com/NavyaTrilok/Deploy-PHP-Application-in-AWS/assets/14071348/cfc0194e-54ec-43ca-8508-b5e856b70817">
 
 **Summary**
+
 A handful of the already-installed services, including VPC (Example VPC), subnets (two public subnets and two private subnets) security groups (Inventory-App, Bastion-SG, ALBSG, and Example-DBSG), and AMI, need to be inspected first before proceeding with the actual deployment process. Here, I have noted down the subnet ids and IP addresses of the subnets so that we can utilize them in the upcoming steps. 
 
 As a part if capstone project, the project was to deploy a PHP application that facilitates the high user availability for a social research organization. 
@@ -54,5 +57,15 @@ To connect to the Linux AMI I have added the inbound rules with type SSH and bas
 Once connected to the EC2 instance with its IPV4 address, I have dumped the data to RDS server.
 
 **I was able to access the website with all the data required.**
+
+<img width="472" alt="image" src="https://github.com/NavyaTrilok/Deploy-PHP-Application-in-AWS/assets/14071348/0abd3d30-2eba-49e5-acba-4a7ea010ca5a">
+
+<img width="470" alt="image" src="https://github.com/NavyaTrilok/Deploy-PHP-Application-in-AWS/assets/14071348/99dc14f9-1b9e-4d52-9b57-3c9a8b742964">
+
+<img width="470" alt="image" src="https://github.com/NavyaTrilok/Deploy-PHP-Application-in-AWS/assets/14071348/b79f1a0b-9141-4fdc-998f-8c7a344bac9b">
+
+<img width="470" alt="image" src="https://github.com/NavyaTrilok/Deploy-PHP-Application-in-AWS/assets/14071348/7f6bc120-335c-4f36-b2aa-5fc8f1dcfd5b">
+
+
 
 
