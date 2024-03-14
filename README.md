@@ -52,10 +52,15 @@ As the RDS was being created I have created the below parameters in the paramete
 I have updated system parameters in parameter store. Below are the parameters –
 
 /example/database - exampledb
+
 /example/username  -  admin
+
 /example/password  - My password
+
 /example/endpoint  -  This is the RDS endpoint 
+
 example.cunl7nhfepoo.us-east1.rds.amazonaws.com
+
 
 Run the website on a t2.micro EC2 instance, and provide Secure Shell (SSH) access to administrators
 To connect to the Linux AMI I have added the inbound rules with type SSH and bastion security group.
