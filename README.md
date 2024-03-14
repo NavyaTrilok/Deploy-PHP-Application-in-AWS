@@ -21,9 +21,13 @@ As a part if capstone project, the project was to deploy a PHP application that 
 Once the lab started I was give when the below subnets and their ip addresses -
 
 Public subnet 1 10.0.0.0/24
+
 Public subnet 2 10.0.1.0/24
+
 Private subnet 1 10.0.2.0/23
+
 Private subnet 2 10.0.4.0/23
+
 
 The security groups were configured –
 Inventory-App
